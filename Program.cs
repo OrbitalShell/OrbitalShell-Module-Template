@@ -18,7 +18,7 @@ namespace OrbitalShell.Module.{ModuleID}
     [Commands("{ModuleDescription} module commands")]
     [CommandsNamespace(CommandNamespace.tools, ToolNamespace)]
     [Hooks]
-    public class {ModuleID} : ICommandsDeclaringType
+    public class {ModuleID}Commands : ICommandsDeclaringType
     {
         #region attributes 
 
@@ -52,7 +52,7 @@ namespace OrbitalShell.Module.{ModuleID}
         /// enable or disable module
         /// </summary>
         [Command("enable/disable module {ModuleTitle}")]
-        public CommandVoidResult {ModuleID}Com(
+        public CommandVoidResult {ModuleID}(
             CommandEvaluationContext context,
             [Option("e", "enable", "if true enable the module, otherwise disable it", true, true)] bool isEnabled = true
         )
