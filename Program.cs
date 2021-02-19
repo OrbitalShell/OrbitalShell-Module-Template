@@ -13,9 +13,9 @@ using System.Collections.Generic;
 namespace OrbitalShell.Module.{ModuleID}
 {
     /// <summary>
-    /// module commands : prompt git infos
+    /// module : {ModuleDescription}
     /// </summary>
-    [Commands("{ModuleDescription} module commands")]
+    [Commands("{ModuleDescription} module")]
     [CommandsNamespace(CommandNamespace.tools, ToolNamespace)]
     [Hooks]
     public class {ModuleID}Commands : ICommandsDeclaringType
