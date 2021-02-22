@@ -4,7 +4,7 @@ using OrbitalShell.Lib;
 /// <summary>
 /// declare a shell module
 /// </summary>
-[assembly: ShellModule()]
+[assembly: ShellModule("OrbitalShell-Module-{ModuleID}")]
 [assembly: ModuleTargetPlateform(TargetPlatform.Any)]
 [assembly: ModuleShellMinVersion("{ModuleShellMinVersion}")]
 [assembly: ModuleAuthors("{ModuleAuthors}")]
