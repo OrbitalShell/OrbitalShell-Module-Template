@@ -37,25 +37,18 @@
 		<None Remove="assets\robotazteque.ico" />
 		<None Include="assets\robotazteque.ico">
 			<Pack>True</Pack>
-			<PackagePath>contentFiles/any/netcoreapp3.1/assets/;content/assets/</PackagePath>
+			<PackagePath>contentFiles/any/net5.0/assets/;content/assets/</PackagePath>
 		</None>
 		<None Remove="assets\robotazteque.png" />
 		<None Include="assets\robotazteque.png">
 			<Pack>True</Pack>
-			<PackagePath>contentFiles/any/netcoreapp3.1/assets/;content/assets/</PackagePath>
+			<PackagePath>contentFiles/any/net5.0/assets/;content/assets/</PackagePath>
 		</None>    
-
-		<None Include="LICENSE">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Pack>True</Pack>
-			<PackagePath>contentFiles/any/netcoreapp3.1/;content/</PackagePath>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</None>
 
 		<None Include="README.md">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 			<Pack>True</Pack>
-			<PackagePath>contentFiles/any/netcoreapp3.1/;content/</PackagePath>
+			<PackagePath>contentFiles/any/net5.0/;content/</PackagePath>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</None>	
   </ItemGroup>
