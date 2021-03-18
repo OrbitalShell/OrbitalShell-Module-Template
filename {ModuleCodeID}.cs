@@ -10,7 +10,7 @@ using System.Linq;
 using OrbitalShell.Component.Console;
 using System.Collections.Generic;
 
-namespace OrbitalShell.Module.{ModuleID}
+namespace OrbitalShell.Module.{ModuleCsID}
 {
     /// <summary>
     /// module {ModuleTitle}
@@ -18,7 +18,7 @@ namespace OrbitalShell.Module.{ModuleID}
     [Commands("{ModuleDescription}")]
     [CommandsNamespace(CommandNamespace.tools, ToolNamespace)]
     [Hooks]
-    public class {ModuleID}Commands : ICommandsDeclaringType
+    public class {ModuleCsID}Commands : ICommandsDeclaringType
     {
         #region attributes 
 
@@ -52,7 +52,7 @@ namespace OrbitalShell.Module.{ModuleID}
         /// enable or disable module
         /// </summary>
         [Command("enable/disable module {ModuleTitle}")]
-        public CommandVoidResult {ModuleID}(
+        public CommandVoidResult {ModuleCsID}(
             CommandEvaluationContext context,
             [Option("e", "enable", "if true enable the module, otherwise disable it", true, true)] bool isEnabled = true
         )
